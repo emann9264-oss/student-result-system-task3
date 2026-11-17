@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 850px;
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+h1 {
+    color: #d63384;
+    font-weight: bold;
+}
+
+h2 {
+    color: #9b59b6;
+    margin-bottom: 20px;
+}
+
+.form {
+    background-color: #fce4ec;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border: 1px solid #e7a6c3;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #d63384;
+    box-shadow: 0 0 5px #f3b6d2;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.btn-success {
+    background-color: #e75480;
+    border-color: #e75480;
+}
+
+.btn-success:hover {
+    background-color: #d6336c;
+}
+
+.btn-primary {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+}
+
+.btn-primary:hover {
+    background-color: #80449b;
+}
+
+#error {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#studentList {
+    background-color: #fff5f8;
+    border-color: #f3c4d7 !important;
+    border-radius: 10px;
+}
+
+#committeeReport {
+    background-color: #f8f0ff;
+    border-color: #d9b8ed !important;
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 8px;
+    }
+
+    .container {
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .form {
+        padding: 15px;
+    }
+}
